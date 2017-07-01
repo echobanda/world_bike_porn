@@ -1,0 +1,142 @@
+	body{
+		font-size: 13px;
+		font-family: 'Helvetica', sans-serif;
+		padding: 0;
+		margin: 0;
+		color: #666;
+		line-height: 100%;
+	}
+	section{
+
+	}
+	a{
+		text-decoration: none;
+  	color: #666;
+	}
+	.inner{
+		max-width: 1280px;
+		padding: 40px;
+		margin: 0 auto;
+	}
+	h1{
+		font-size: 100px;
+		line-height: 90%;
+		margin: 0;
+		font-weight: bold;
+    font-family: 'Helvetica neue', sans-serif;
+	}
+	.rotatedtext h2{
+		font-size: 20px;
+		clear: both;
+		margin: 0;
+		padding: 0;
+		line-height: 130%;
+    font-family: 'Helvetica', sans-serif;
+	}
+	.border h2{
+		padding-bottom: 10px;
+	}
+	/*h3{
+		font-size: 18px;
+		font-weight: 400;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 800px;
+		line-height: 140%;
+		opacity: .8;
+	}*/
+  h3{
+    font-size: 50px;
+		clear: both;
+		margin: 0;
+		padding: 0;
+		line-height: 130%;
+    font-family: 'Helvetica', sans-serif;
+  }
+	p{
+		padding:3px 0 10px 0;
+		margin: 0;
+	}
+
+	.full{
+		margin: 0 -40px;
+		width: 100%;
+	}
+	.half{
+		width: 50%;
+		float: left;
+	}
+	.third{
+		width: 33%;
+		float: left;
+	}
+	.wrap{
+		margin: 0 40px 0 0;
+	}
+	#home .inner{
+		padding-bottom: 100px;
+	}
+
+	.clear{
+		clear: both;
+	}
+
+	.multicols{
+		columns:100px 1;
+		-webkit-columns:100px 1; /* Safari and Chrome */
+		-moz-columns:100px 1; /* Firefox */
+		column-fill: auto;
+		-webkit-margin-before: 0;
+		-webkit-margin-after: 0;
+		-webkit-column-gap: 30px;
+		margin-top: 150px;
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 140%;
+		font-style:
+	}
+	.col30{
+		width: 40%;
+		float: right;
+	}
+	.rotatedtext{
+		position: relative;
+		width: 60%;
+		height: 600px;
+		-moz-transform:rotate(45deg);
+		transform:rotate(45deg);
+		-webkit-transform:rotate(45deg);
+		float: left;"
+	}
+	.name{
+		-webkit-transform:rotate(-90deg);
+		position: absolute;
+		left: 90px;
+		top: 30px;
+	}
+	.name h2{
+		margin-top: 20px;
+		color: #666;
+	}
+	.role{
+		-webkit-transform:rotate(0);
+		position: absolute;
+    text-align: center;
+		top: 400px;
+	}
+	.work{
+		color: #E52B50;
+		margin-top: -20px;
+	}
+	.co{
+		font-size: 80px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.stopka{
+		font-size: 20px;
+		text-align: center;
+		margin-top: 20px;
+		font-family: 'Helvetica', sans-serif;
+		color: #E52B50;
+	}
