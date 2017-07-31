@@ -14,9 +14,9 @@ var prev;
 
 // menu opuszczane
 
-var menu = $('.column_5').find("#menu");
-var nav = $('.column_5').find("nav");
-var toggle = $('.column_5').find("#toggle");
+var menu = $('.column_left').find("#menu");
+var nav = $('.column_left').find("nav");
+var toggle = $('.column_left').find("#toggle");
 
 toggle.on('click',function(){
   menu.slideToggle(function () {
