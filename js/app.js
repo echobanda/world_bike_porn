@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
-
-// zmiana tekstu w header
-
-var prev;
-
-  $('#porn').hover(function(){
-  prev = $(this).text();
-      $(this).text("porno");
-  },
-  function(){
-      $(this).text(prev)
-  });
+// 
+// // zmiana tekstu w header
+//
+// var prev;
+//
+//   $('#porn').hover(function(){
+//   prev = $(this).text();
+//       $(this).text("porno");
+//   },
+//   function(){
+//       $(this).text(prev)
+//   });
 
 // menu opuszczane
 
