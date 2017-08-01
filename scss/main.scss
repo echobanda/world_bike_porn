@@ -219,8 +219,32 @@ body {
 footer{
   background-color: $five;
   width: 100%;
-height: 100px; 
+height: 100px;
 }
+
+// return styles
+
+.return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: $five;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  display: none;
+}
+
+.return-to-top i {
+  color: $third;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+}
+
 }
 //     #menu {
 //       top: 0;
