@@ -7,6 +7,17 @@ gulp.task("tusk", function() {
   console.log("Zielona wyspa");
 });
 
+gulp.task("sass", function() {
+  return gulp.src("scss/colors.scss")
+    .pipe(sourcemaps.init())
+    .pipe(sass({
+      errLogToConsole: true,
+    outputStyle: 'epanded',
+    sourceComments: 'map'
+    }))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest("css"))
+});
 
 gulp.task("sass", function() {
   return gulp.src("scss/main.scss")
